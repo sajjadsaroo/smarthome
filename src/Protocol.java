@@ -1,2 +1,4 @@
-public class Protocol {
+public enum Protocol {
+    WiFi,
+    Bluetooth
 }
