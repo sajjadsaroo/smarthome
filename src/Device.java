@@ -13,6 +13,7 @@ public abstract class Device {
     public boolean isOn() { return status; }
     public void setStatus(boolean status) { this.status = status; }
 
+
     /** Returns: name status [brightness%|temperatureC] protocol */
     public abstract String getInfo();
 
